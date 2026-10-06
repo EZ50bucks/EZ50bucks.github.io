@@ -1274,7 +1274,7 @@ analytical role that combines business, data and technology. If you have
           }
         };
 
-        apply(root.classList.contains('dark'), false);
+        apply(root.classList.contains('light'), false);
         buttons.forEach((btn) => btn.addEventListener('click', () => apply(!root.classList.contains('dark'), true)));
 
         system.addEventListener('change', (e) => {
